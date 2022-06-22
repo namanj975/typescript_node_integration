@@ -1,0 +1,21 @@
+{
+  "name": "typescript_integration_in_node",
+  "version": "1.0.0",
+  "description": "A simple package to understand fundamentals of typescript and its integration in nodejs evironment",
+  "main": "greet.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node app.ts`",
+    "start-dev": "nodemon"
+  },
+  "author": "namanj975@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^2.0.15",
+    "ts-node": "^10.5.0"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.18",
+    "nodemon": "^2.0.15"
+  }
+}

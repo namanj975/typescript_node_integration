@@ -1,0 +1,7 @@
+{
+  "ignore": [".git", "node_modules"],
+  "watch": ["../typescript"],
+  "exec": "npm start",
+  "ext": "js,ts,jade,json",
+  "delay": 5000
+}
