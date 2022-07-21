@@ -10,6 +10,13 @@
   },
   "author": "namanj975@gmail.com",
   "license": "ISC",
+  "compilerOptions": {
+    "lib": [
+      "es2020"
+    ],
+    "module": "commonjs",
+    "target": "es2020"
+  },
   "dependencies": {
     "nodemon": "^2.0.15",
     "ts-node": "^10.5.0",

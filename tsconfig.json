@@ -1,12 +1,17 @@
 {
   "compilerOptions": {
+    "target": "es6",
     "module": "commonjs",
-    "noImplicitAny": false,
-    "removeComments": true,
-    "preserveConstEnums": true,
     "outDir": "dist",
-    "sourceMap": true,
-    "resolveJsonModule": true
+    "sourceMap": false,
+    "declaration": false,
+    "noImplicitAny": true,
+    "resolveJsonModule": true,
+    "allowJs": true,
+    "lib": ["es2020", "esnext","es2017.object", "es2015", "es2017", "dom"],
+    "skipLibCheck": true
   },
-  "exclude": ["node_modules", "**/*.spec.ts"]
+  "files": ["./node_modules/@types/node/index.d.ts"],
+  "include": ["src/**/*.ts"],
+  "exclude": ["node_modules",	"**/*.spec.ts"]
 }
