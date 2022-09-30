@@ -12,6 +12,7 @@
     "skipLibCheck": true
   },
   "files": ["./node_modules/@types/node/index.d.ts"],
-  "include": ["src/**/*.ts"],
-  "exclude": ["node_modules",	"**/*.spec.ts"]
+  "include": ["typescript_integration_in_node/*"],
+  "exclude": ["node_modules",	"**/*.spec.ts"],
+  "noImplicitAny" : false,
 }

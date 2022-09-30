@@ -8,7 +8,6 @@ employee = {
   age: 25,
   jobTitle: "Web Developer",
 };
-
 console.log(employee);
 
 /**
@@ -77,7 +76,7 @@ console.log("firsname is accessible here",people.firstName)
 let obj: Object = {
   age: 67,
 };
-console.log("here", obj.toString());
+console.log("here", obj.toString(),obj);
 
 /**
  ** TypeScript has another type called empty type denoted by {} , which is quite similar to the object type.
@@ -93,10 +92,18 @@ empty = 45;
 console.log(empty,empty.toString());
 
 let obj2 : Object
+let vacant2 : {} = {age:56};
+console.log("vacant2",vacant2.toString(),vacant2);
+/**
+ * * The following will issue an error during compile time because the type of vacant2 is empty {}. And an empty type {} describes an object that has no property on its own.
+ * * So the typescript compiler will not allow to access any own properties of object. whether it is initialised with any object value or not. But the following is valid when running it 
+ * * with javascript compiler
+ */
+// console.log("vacant2 age ", vacant2.age)
 
 /**
  * * The following will not raise an error at compile time obj2 type is Object so typescript allows obj2 to fetch object properties but at runtime
- * * following willl give an error because obj2 value is undefined and we are acessing properties of undefined.
+ * * following will give an error because obj2 value is undefined and we are acessing properties of undefined.
  */
 
 console.log("obj2", obj2.toString());
