@@ -1,0 +1,7 @@
+{
+    "ignore": [".git", "node_modules"],
+    "watch": ["../typescript_integration_in_node"],
+    "exec": "npm run start_latest",
+    "ext": "js,ts,jade,json"
+  }
+  

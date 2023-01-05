@@ -60,3 +60,24 @@ let finalScores = ['Programming', 5, 'Software Design', 4];
  */
 // finalScores[5] = {}
 
+/**
+ * *Read only array
+ * * TypeScript comes with a ReadonlyArray<T> type that is the same as Array<T> with all mutating methods removed,
+ * * so you can make sure you don’t change your arrays after creation
+ */
+
+ let a: number[] = [1, 2, 3, 4];
+ let ro: ReadonlyArray<number> = a;
+ let stringArr : readonly string[] ;
+ stringArr = ["red","green","yellow"];  
+ 
+//  stringArr[0] ="grey"  // Invalid 
+
+//  ro[0] = 12; // Invalid!
+//  Index signature in type 'readonly number[]' only permits reading.
+//  ro.push(5); // Invalid 
+//  Property 'push' does not exist on type 'readonly number[]'.
+//  ro.length = 100; // Invalid // error!
+//  Cannot assign to 'length' because it is a read-only property.
+//  a = ro;   // Invalid // error!
+//  The type 'readonly number[]' is 'readonly' and cannot be assigned to the mutable type 'number[]'.

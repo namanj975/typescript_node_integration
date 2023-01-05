@@ -9,7 +9,6 @@ employee = {
   jobTitle: "Web Developer",
 };
 console.log(employee);
-
 /**
  * * the type of employee is declared as object so assign it to another type will give an error.
  */
@@ -89,7 +88,7 @@ console.log("vacant", vacant);
 let empty: {} = {};
 empty = 45;
 
-console.log(empty,empty.toString());
+console.log("empty",empty,empty.toString());
 
 let obj2 : Object
 let vacant2 : {} = {age:56};

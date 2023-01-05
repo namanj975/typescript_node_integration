@@ -1,12 +1,13 @@
 {
   "compilerOptions": {
-    "target": "es6",
+    "target": "es2020",
     "module": "commonjs",
     "outDir": "dist",
     "sourceMap": false,
     "declaration": false,
     "noImplicitAny": true,
     "resolveJsonModule": true,
+    "strictNullChecks" : true,
     "allowJs": true,
     "lib": ["es2020", "esnext","es2017.object", "es2015", "es2017", "dom"],
     "skipLibCheck": true

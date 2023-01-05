@@ -25,9 +25,9 @@ console.log("color",color);
 */
 let bgColor:[number, number, number, number?] , headerColor: [number, number, number, number?];
 bgColor = [0, 255, 0, 67];
-headerColor = [0, 255, 255]; // valid because fourth element is optional
+headerColor = [0, 255,255]; // valid because fourth element is optional
 
-headerColor = [0, 255, 255,90]; // valid because second element is optional
+headerColor = [0, 255, 255,90]; // valid because fourth element is optional
 
 // headerColor = [0, 255, 255, "hello"]; // Invalid because the type of fourth element is number if provide and we are giving as string.
 

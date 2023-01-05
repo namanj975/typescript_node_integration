@@ -2,11 +2,14 @@
   "name": "typescript_integration_in_node",
   "version": "1.0.0",
   "description": "A simple package to understand fundamentals of typescript and its integration in nodejs evironment",
-  "main": "greet.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "ts-node enum_type.ts",
-    "start-dev": "nodemon"
+    "start_latest": "ts-node number_type.ts",
+    "start-dev": "nodemon",
+    "start-dev-latest": "nodemon --config ./nodemonConfigLatest.json",
+    "start-dev-string": "nodemon --exec ts-node string_type.ts"
+
   },
   "author": "namanj975@gmail.com",
   "license": "ISC",

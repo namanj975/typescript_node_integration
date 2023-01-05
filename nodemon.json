@@ -1,6 +1,6 @@
 {
   "ignore": [".git", "node_modules"],
-  "watch": ["../typescript"],
+  "watch": ["../typescript_integration_in_node"],
   "exec": "npm start",
   "ext": "js,ts,jade,json",
   "delay": 5000
