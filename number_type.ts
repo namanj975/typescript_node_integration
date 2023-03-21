@@ -23,3 +23,11 @@ let octal: number = 0o10;
  let big: bigint = BigInt(9007199254740991)
 
  let big2: bigint = 9007199254740991n;
+
+ let number1 = () => 4;
+
+ /**
+  * * The following will raise an error because the type of variable number1 is already infered as a function whose return type is number, in above statement by typescript compiler. 
+  * * So assigning the string value will raise error
+ */
+//  number1 = "g"

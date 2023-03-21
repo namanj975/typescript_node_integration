@@ -22,7 +22,7 @@
 */
 
 
-let flag : number | string | boolean  = true;
+let flag : number | string | boolean = true;
 flag = 0;
 flag = "success"
 

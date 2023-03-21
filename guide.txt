@@ -1,7 +1,7 @@
 Assignability Table
 The following table summarizes assignability between some abstract types. Rows indicate what each is assignable to, columns indicate what is assignable to them. A ”✓” indicates a combination that is compatible only when strictNullChecks is off.
 
-any	unknown	object	void	undefined	null	never
+       any	unknown	object	void	undefined	null	never
 any →		✓	✓	✓	✓	✓	✕
 unknown →	✓		✕	✕	✕	✕	✕
 object →	✓	✓		✕	✕	✕	✕

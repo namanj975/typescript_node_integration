@@ -51,3 +51,5 @@ val2 = {s:34};
  * *Use the any type to store a value that you don’t actually know its type at the compile-time or when you migrate a JavaScript project over to a TypeScript project.
 
  */
+
+export default 12
